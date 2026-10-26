@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Usina Utinga | Açúcar e Etanol</title>
+  
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-[#166534] selection:text-white">
+
+  <!-- Header Superior com Margem Branca e Logo Destacada -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-white border-b-4 border-[#166534] shadow-md">
+    <div class="max-w-7xl mx-auto px-6 md:px-10 h-28 flex items-center justify-between">
+      
+      <!-- Logo Grande com Padding/Espaçamento Branco em Volta -->
+      <a href="#home" class="flex items-center justify-center p-3 bg-white rounded-xl shadow-sm hover:shadow-md transition-all">
+        <img 
+          src="./imagem/Logo-usinaUtinga.png" 
+          alt="Logo Usina Utinga" 
+          class="h-16 md:h-20 w-auto object-contain max-w-[260px]"
+        >
+      </a>
+
+      <!-- Menu de Navegação -->
+      <nav class="hidden md:flex items-center gap-8">
+        <a href="#home" class="relative text-[#003366] font-extrabold text-sm uppercase tracking-wider py-2 hover:text-[#166534] transition-colors group">
+          Início
+          <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-[#166534] transition-all duration-300 group-hover:w-full"></span>
+        </a>
+        <a href="#jornada" class="relative text-[#003366] font-extrabold text-sm uppercase tracking-wider py-2 hover:text-[#166534] transition-colors group">
+          Processo
+          <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-[#166534] transition-all duration-300 group-hover:w-full"></span>
+        </a>
+        <a href="#produtos" class="relative text-[#003366] font-extrabold text-sm uppercase tracking-wider py-2 hover:text-[#166534] transition-colors group">
+          Produtos
+          <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-[#166534] transition-all duration-300 group-hover:w-full"></span>
+        </a>
+        <a href="#sobre" class="relative text-[#003366] font-extrabold text-sm uppercase tracking-wider py-2 hover:text-[#166534] transition-colors group">
+        Sobre
+        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-[#166534] transition-all duration-300 group-hover:w-full"></span>
+        </a>
+           <a href="#contato" class="relative text-[#003366] font-extrabold text-sm uppercase tracking-wider py-2 hover:text-[#166534] transition-colors group">
+        Contato
+        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-[#166534] transition-all duration-300 group-hover:w-full"></span>
+        </a>
+        <a href="#trabalhe-conosco" class="ml-4 px-6 py-3 bg-[#166534] hover:bg-[#15803d] text-white font-bold text-xs uppercase tracking-widest rounded-xl shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5">
+          Trabalhe Conosco
+        </a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="pt-28">
+   <!-- Hero / Tela Inicial em Moldura Branca -->
+    <section id="home" class="py-12 px-6 md:px-12 bg-slate-100 flex justify-center items-center">
+      
+      <!-- Card/Container da Imagem com bordas e respiro branco -->
+      <div class="relative w-full max-w-7xl h-[80vh] rounded-3xl overflow-hidden shadow-2xl border-8 border-b-4 border-[#166534] bg-white flex flex-col justify-center items-center text-center p-8">
+        
+        <!-- Imagem da Usina em Alta Resolução (sem ficar embaçada) -->
+        <img 
+          src="./imagem/WhatsApp Image 2026-10-23 at 12.30.33.jpeg" 
+          alt="Instalações Usina Utinga" 
+          class="w-full h-full object-cover absolute inset-0 z-0 "
+        >
+      </div>
+    </section>
+
+    <!-- SEÇÃO DE PROCESSO - ROCKSTAR FULLSCREEN (CORES NATURAIS) -->
+<section id="jornada" class="relative bg-slate-950">
+  <div class="relative min-h-[300vh]">
+    
+    <!-- CONTAINER FIXO DA IMAGEM EM TELA CHEIA -->
+    <div class="sticky top-28 h-[calc(100vh-7rem)] w-full overflow-hidden bg-slate-950 z-10">
+      
+      <!-- Imagem 01 -->
+      <div class="painel-img absolute inset-0 opacity-100 transition-opacity duration-300">
+        <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=2400&q=100" alt="Manejo do Solo" class="w-full h-full object-cover">
+        <!-- Sombreamento neutro e suave apenas no rodapé para dar leitura ao texto -->
+        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent p-8 md:p-12 flex flex-col justify-end items-center text-center">
+          <span class="text-xs md:text-sm font-bold text-white uppercase tracking-widest bg-[#166534] px-4 py-1.5 rounded-full border border-emerald-400/40 mb-3 shadow-md">Etapa 01 - Campo</span>
+          <h4 class="text-3xl md:text-5xl font-extrabold text-white max-w-3xl leading-tight drop-shadow-md">Manejo & Preparo do Solo</h4>
+          <p class="text-slate-200 text-sm md:text-base max-w-xl mt-3 leading-relaxed drop-shadow">Tudo começa no solo: nutrição de precisão e plantio sustentável.</p>
+        </div>
+      </div>
+
+      <!-- Imagem 02 -->
+      <div class="painel-img absolute inset-0 opacity-0 transition-opacity duration-300">
+        <img src="./imagem/colhendo.jpeg" alt="Colheita" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent p-8 md:p-12 flex flex-col justify-end items-center text-center">
+          <span class="text-xs md:text-sm font-bold text-white uppercase tracking-widest bg-[#166534] px-4 py-1.5 rounded-full border border-emerald-400/40 mb-3 shadow-md">Etapa 02 - Colheita</span>
+          <h4 class="text-3xl md:text-5xl font-extrabold text-white max-w-3xl leading-tight drop-shadow-md">Colhedora em Ação no Canavial</h4>
+          <p class="text-slate-200 text-sm md:text-base max-w-xl mt-3 leading-relaxed drop-shadow">Colheita e processamento eficientes para garantir a qualidade do produto final.</p>
+        </div>
+      </div>
+
+      <!-- Imagem 03 -->
+      <div class="painel-img absolute inset-0 opacity-0 transition-opacity duration-300">
+        <img src="./imagem/caminha-carregado.jpeg" alt="Transporte" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent p-8 md:p-12 flex flex-col justify-end items-center text-center">
+          <span class="text-xs md:text-sm font-bold text-white uppercase tracking-widest bg-[#166534] px-4 py-1.5 rounded-full border border-emerald-400/40 mb-3 shadow-md">Etapa 03 - Logística</span>
+          <h4 class="text-3xl md:text-5xl font-extrabold text-white max-w-3xl leading-tight drop-shadow-md">Transporte para a Produção</h4>
+          <p class="text-slate-200 text-base max-w-xl mt-3 leading-relaxed drop-shadow">Transporte ágil para moagem e produção de açúcar e etanol.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- GATILHOS INVISÍVEIS DE ROLAGEM -->
+    <div class="absolute top-0 left-0 w-full min-h-full flex flex-col justify-around pointer-events-none z-0">
+      <div class="passo-bloco h-[100vh]"></div>
+      <div class="passo-bloco h-[100vh]"></div>
+      <div class="passo-bloco h-[100vh]"></div>
+    </div>
+
+  </div>
+</section>
+
+        <!-- GATILHOS INVISÍVEIS DE ROLAGEM -->
+        <div class="absolute top-0 left-0 w-full min-h-full flex flex-col justify-around pointer-events-none z-0">
+          <div class="passo-bloco h-[100vh]"></div>
+          <div class="passo-bloco h-[100vh]"></div>
+          <div class="passo-bloco h-[100vh]"></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Seção de Produtos -->
+    <section id="produtos" class="py-28 px-6 max-w-7xl mx-auto relative z-10">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="text-3xl md:text-5xl font-extrabold text-[#003366] mb-4">Nossos Produtos</h2>
+        <p class="text-slate-600">Excelência na produção e compromisso socioambiental.</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- Etanol -->
+        <div class="p-8 bg-white border border-slate-200 rounded-2xl shadow-lg hover:shadow-xl transition-all flex flex-col justify-between border-t-8 border-t-[#166534]">
+          <div>
+            <h3 class="text-2xl font-bold text-[#003366] mb-3">Etanol</h3>
+            <p class="text-slate-600 leading-relaxed text-sm">Biocombustível renovável e de alto rendimento nas versões Anidro e Hidratado.</p>
+          </div>
+          <div class="mt-8 h-64 w-full overflow-hidden rounded-xl border border-slate-100">
+            <img src="./imagem/baldes-com-etanol.jpeg" alt="Produção de Etanol" class="w-full h-full object-cover">
+          </div>
+        </div>
+
+        <!-- Açúcar -->
+        <div class="p-8 bg-white border border-slate-200 rounded-2xl shadow-lg hover:shadow-xl transition-all flex flex-col justify-between border-t-8 border-t-[#003366]">
+          <div>
+            <h3 class="text-2xl font-bold text-[#003366] mb-3">Açúcar</h3>
+            <p class="text-slate-600 leading-relaxed text-sm">Produção de alta pureza atendendo aos mais rigorosos padrões para o mercado nacional e internacional.</p>
+          </div>
+          <div class="mt-8 h-64 w-full overflow-hidden rounded-xl border border-slate-100">
+            <img src="./imagem/acucar.jpeg" alt="Produção de Açúcar" class="w-full h-full object-cover">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO TRABALHE CONOSCO (COM UPLOAD DE CURRÍCULO) -->
+<section id="trabalhe-conosco" class="py-24 bg-emerald-900/10 border-t border-emerald-200/60">
+  <div class="max-w-4xl mx-auto px-6">
+    <div class="bg-white border border-slate-200 rounded-3xl p-8 md:p-12 shadow-xl">
+      
+      <div class="text-center mb-10">
+        <span class="text-xs font-bold text-[#166534] uppercase tracking-widest bg-emerald-100 px-4 py-1.5 rounded-full border border-emerald-300 inline-block mb-3">
+          Oportunidades de Carreira
+        </span>
+        <h2 class="text-3xl md:text-4xl font-bold text-[#003366] mb-3">Trabalhe Conosco</h2>
+        <p class="text-slate-600 text-sm max-w-lg mx-auto">
+          Cadastre seu currículo em nosso banco de talentos e venha fazer parte da equipe da Usina Utinga.
+        </p>
+      </div>
+
+      <form class="space-y-6" onsubmit="event.preventDefault(); alert('Currículo e candidatura enviados com sucesso!');">
+        
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <label class="block text-xs font-bold text-[#003366] uppercase mb-2">Nome Completo *</label>
+            <input type="text" required placeholder="Digite seu nome completo" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-slate-800 focus:outline-none focus:border-[#166534] transition-colors">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-[#003366] uppercase mb-2">E-mail de Contato *</label>
+            <input type="email" required placeholder="seu@email.com" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-slate-800 focus:outline-none focus:border-[#166534] transition-colors">
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <label class="block text-xs font-bold text-[#003366] uppercase mb-2">Telefone / WhatsApp *</label>
+            <input type="tel" required placeholder="(82) 99999-9999" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-slate-800 focus:outline-none focus:border-[#166534] transition-colors">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-[#003366] uppercase mb-2">Área de Interesse *</label>
+            <select required class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-slate-800 focus:outline-none focus:border-[#166534] transition-colors">
+              <option value="">Selecione uma área...</option>
+              <option>Operações Agrícolas / Campo</option>
+              <option>Industrial / Fábrica & Manutenção</option>
+              <option>Tecnologia da Informação (TI) & Suporte</option>
+              <option>Administrativo, RH & Financeiro</option>
+              <option>Segurança do Trabalho & Meio Ambiente</option>
+              <option>Jovem Aprendiz / Estágio</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- CAMPO DE UPLOAD DE CURRÍCULO (PDF / DOCX) -->
+        <div>
+          <label class="block text-xs font-bold text-[#003366] uppercase mb-2">Anexar Currículo (PDF ou DOCX) *</label>
+          <div class="relative border-2 border-dashed border-slate-300 hover:border-[#166534] bg-slate-50 rounded-2xl p-6 text-center transition-colors cursor-pointer group">
+            <input type="file" required accept=".pdf,.doc,.docx" class="absolute inset-0 w-full h-full opacity-0 cursor-pointer">
+            <div class="flex flex-col items-center justify-center">
+              <svg class="w-10 h-10 text-[#166534] mb-2 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path>
+              </svg>
+              <p class="text-sm font-semibold text-slate-700">Clique aqui ou arraste o seu arquivo</p>
+              <p class="text-xs text-slate-400 mt-1">Formatos aceitos: PDF, DOC ou DOCX (Tamanho máximo: 10MB)</p>
+            </div>
+          </div>
+        </div>
+
+        <button type="submit" class="w-full py-4 bg-[#166534] hover:bg-[#15803d] text-white font-bold text-sm uppercase tracking-wider rounded-xl shadow-lg transition-all hover:shadow-xl">
+          Enviar Candidatura
+        </button>
+
+      </form>
+
+    </div>
+  </div>
+ 
+
+
+</form>
+</section>
+
+  <!-- SEÇÃO SOBRE A USINA UTINGA -->
+<section id="sobre" class="py-24 bg-white border-b border-slate-200">
+  <div class="max-w-7xl mx-auto px-6 md:px-10">
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      
+      <div>
+
+        <h2 class="text-3xl md:text-5xl font-extrabold text-[#003366] leading-tight mb-6">
+          Trabalho que transforma o presente e constrói o futuro 134 Anos 
+        </h2>
+        <p class="text-slate-600 leading-relaxed mb-6 text-base">
+A Usina Utinga  é uma tradicional empresa do setor sucroenergético sediada em Rio Largo, Alagoas, fundada originalmente em 1894 (com registro societário de 1966) e atualmente sob a gestão do Grupo EQM. Sua principal atividade econômica é a fabricação de açúcar em bruto (incluindo variedades como VHP, cristal, demerara e mascavo) e a produção de etanol (hidratado e anidro), além de derivados como rapadura e melaço. 
+
+A usina opera com alta capacidade industrial, processando diariamente cerca de 8.500 a 9.000 toneladas de cana-de-açúcar, com produção diária estimada de 21.000 sacos de açúcar, 8.000 sacos de açúcar refinado e 400 mil litros de etanol hidratado.  A empresa é reconhecida por sua modernização tecnológica, tendo sido considerada uma das mais modernas da América Latina, e possui forte compromisso socioambiental, mantendo mais de 11 mil hectares de Mata Atlântica preservada e gerando milhares de empregos na região.
+        </p>
+        
+        <div class="grid grid-cols-2 gap-6 pt-6 border-t border-slate-200">
+          <div>
+          </div>
+          <div>
+        
+          </div>
+        </div>
+      </div>
+
+      <div class="rounded-2xl overflow-hidden border border-slate-200 shadow-xl h-[380px]">
+        <img src="./imagem/WhatsApp Image 2026-10-23 at 12.30.33.jpeg" alt="Estrutura Usina Utinga" class="w-full h-full object-cover">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- Rodapé -->
+  <footer class="bg-[#002244] text-white py-12 text-sm" id="contato">
+<div class="max-w-7xl mx-auto px-6 md:px-10 flex flex-col md:flex-row justify-between items-center gap-6">
+      
+      <!-- Logo e Descrição -->
+      <div class="flex items-center gap-3">
+        <img src="./imagem/Logo-usinaUtinga.png" alt="Logo Usina Utinga" class="h-10 w-auto bg-white/95 p-1 rounded">
+        <span class="text-xs text-emerald-200 font-semibold">Açúcar, Etanol e Bioenergia</span>
+      </div>
+
+      <!-- Ícone e Link do Instagram -->
+      <div class="flex items-center gap-3">
+        <span class="text-xs text-slate-300 font-medium">Siga-nos nas redes:</span>
+        <a 
+          href="https://www.instagram.com/usinautinga" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-[#166534] border border-white/20 rounded-xl transition-all duration-300 group"
+        >
+          <!-- Ícone do Instagram em SVG -->
+          <svg class="w-5 h-5 text-emerald-400 group-hover:text-white transition-colors" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+          <span class="text-xs font-bold text-white group-hover:text-white transition-colors">@usinautinga</span>
+        </a>
+      </div>
+
+      <!-- Direitos Autorais -->
+      <div class="text-xs text-center md:text-right text-slate-300">
+        <p>© Usina Utinga. Todos os direitos reservados.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+  
+</body>
+</html>
